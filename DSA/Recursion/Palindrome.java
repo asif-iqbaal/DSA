@@ -14,6 +14,7 @@ public class Palindrome{
         }else{
             System.out.println("no , not a palindrom");
         }
+        sc.close();
     }
     
     static String palindrome(String s){
