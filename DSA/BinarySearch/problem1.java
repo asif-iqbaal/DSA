@@ -28,6 +28,7 @@ public class problem1 {
         }
         return new int[]{first, last};
     }
+
     }
 
     public static void main(String[] args) {
