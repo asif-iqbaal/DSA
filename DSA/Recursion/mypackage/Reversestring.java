@@ -7,9 +7,6 @@ public class Reversestring {
         String input = scanner.nextLine();
         String reversed = reverse(input);
         System.out.println("Reversed string: " + reversed);
-        // String str = "Hello, World!"; // Example string
-        // String result =  reverse(str);
-        // System.out.println("Reversed string is: " + result);
     }
     static String reverse(String str) {
         if(str == null || str.isEmpty()) {
